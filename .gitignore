@@ -1,9 +1,36 @@
-# Python
+# --- Python Environment ---
 backend/venv/
+venv/
+.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .env
+.pytest_cache/
+.inventory
 
-# OS generated files
+# --- Media & Heavy Assets (DO NOT PUSH TO GITHUB) ---
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+# MediaPipe task models (large binary files)
+*.task
+
+# --- OS Generated ---
 .DS_Store
+.DS_Store?
+._*
 Thumbs.db
+desktop.ini
+
+# --- IDE Configs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs & Temp ---
+*.log
+tmp/
